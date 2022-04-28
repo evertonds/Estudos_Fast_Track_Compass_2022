@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0359e224-5105-4d45-a3ff-d3d873a28ed0" name="Changes" comment="Adicionando expressões regulares" />
+    <list default="true" id="0359e224-5105-4d45-a3ff-d3d873a28ed0" name="Changes" comment="Inserindo certificados" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651172946768</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Inserindo certificados">
+      <created>1651173061669</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651173061669</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,6 +288,7 @@
     <MESSAGE value="Alterações nas pastas" />
     <MESSAGE value="Implemento Paradigma da Orientação a Objetos para simplificar código" />
     <MESSAGE value="Adicionando expressões regulares" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando expressões regulares" />
+    <MESSAGE value="Inserindo certificados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserindo certificados" />
   </component>
 </project>
