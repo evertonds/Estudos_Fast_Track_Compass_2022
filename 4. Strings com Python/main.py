@@ -1,14 +1,19 @@
-url = "bytebank.com/cambio?moedaOrigem=real"
-print(url)
+#url = "bytebank.com/cambio?moedaDestino=dolar&moedaOrigem=real&quantidade=100"
+url = " "
 
+#limpeza (sanitização da URL)
+url = url.strip()
+
+#validação da URL
+if url == "":
+    raise ValueError("A URL está vazia")
 
 indice_interrogacao = url.find('?')
 url_base = url[:indice_interrogacao]
-<<<<<<< HEAD
 url_parametros = url[indice_interrogacao+1:]
 print(url_parametros)
 
-parametro_busca = "moedaOrigem"
+parametro_busca = "quantidade"
 indice_parametro = url_parametros.find(parametro_busca)
 indice_valor = indice_parametro + len(parametro_busca) + 1
 indice_e_comercial = url_parametros.find('&', indice_valor)
@@ -17,10 +22,3 @@ if indice_e_comercial == -1:
 else:
     valor = url_parametros[indice_valor:indice_e_comercial]
 print(valor)
-
-=======
-print(url_base)
-
-url_parametros = url[indice_interrogacao+1:]
-print(url_parametros)
->>>>>>> parent of 3c0b2c5 (Adicionando método len)
