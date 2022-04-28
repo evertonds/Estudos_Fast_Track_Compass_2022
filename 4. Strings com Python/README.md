@@ -1,7 +1,7 @@
 # Estudos Fast Track Compass 2022
 
-Certificação obtida ao concluir a formação "Modelagem de dados" na Alura. 
+Certificação obtida ao concluir o curso "STRING EM PYTHON: EXTRAINDO INFORMAÇÕES DE UMA URL" na Alura. 
 
-A formação compreendia os principios da modelagem de dados, modelo Entidade-Relacionamento, banco de dados relacionais, atividades práticas de modelagem de bancos e esquemas, além de exercicios práticos de consultas a bancos relacionais e não-relacionais, utilizando MySQL e MongoDB. 
+O curso explica sobre métodos e tratativas de strings em python, como fatiamento, métodos, encapsulamento e boas práticas de código. 
 
-<link>https://cursos.alura.com.br/user/evertonds/degree-modelagem-dados-62403/certificate</link>
+https://cursos.alura.com.br/certificate/0411052b-2848-43a2-baec-280045245579
