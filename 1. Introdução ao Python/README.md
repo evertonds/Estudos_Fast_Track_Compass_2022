@@ -1,7 +1,7 @@
 # Estudos Fast Track Compass 2022
 
-Certificação obtida ao concluir a formação "Modelagem de dados" na Alura. 
+Certificação obtida ao concluir o curso "PYTHON 3 PARTE 1: INTRODUÇÃO À NOVA VERSÃO DA LINGUAGEM" na Alura. 
 
-A formação compreendia os principios da modelagem de dados, modelo Entidade-Relacionamento, banco de dados relacionais, atividades práticas de modelagem de bancos e esquemas, além de exercicios práticos de consultas a bancos relacionais e não-relacionais, utilizando MySQL e MongoDB. 
+O curso compreendia os conceitos básicos da linguagem de programação Python, com funções, boas práticas de programação. 
 
-<link>https://cursos.alura.com.br/user/evertonds/degree-modelagem-dados-62403/certificate</link>
+https://cursos.alura.com.br/certificate/c2aebc95-8ed1-4b90-a5c7-e747f6e7e0de
