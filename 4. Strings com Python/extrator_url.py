@@ -1,3 +1,5 @@
+import re
+
 class ExtratorURL:
     def __init__(self, url):
         self.url = self.sanitiza_url(url)
@@ -12,6 +14,12 @@ class ExtratorURL:
     def valida_url(self):
         if not self.url:
             raise ValueError("A URL está vazia")
+
+        padrao_url = re.compile('(http(s)?://)?(www.)?bytebank.com(.br)?/cambio')
+        match = padrao_url.match(self.url)
+
+        if not match:
+            raise ValueError("A URL não é válida")
 
     def get_url_base(self):
         indice_interrogacao = self.url.find('?')
@@ -33,8 +41,34 @@ class ExtratorURL:
             valor = self.get_url_parametros()[indice_valor:indice_e_comercial]
         return valor
 
+    def __len__(self):
+        return len(self.url)
 
-extrator_url = ExtratorURL("bytebank.com/cambio?moedaDestino=dolar&moedaOrigem=real&quantidade=100")
-#extrator_url = ExtratorURL(None)
-valor_quantidade = extrator_url.get_valor_parametro("moedaDestino")
-print(valor_quantidade)
+    def __str__(self):
+        return self.url + "\n" + "Parâmetros: " + self.get_url_parametros() + "\n" + "URL Base: " + self.get_url_base()
+
+    def __eq__(self, other):
+        return self.url == other.url
+
+
+extrator_url = ExtratorURL("bytebank.com/cambio?moedaDestino=real&moedaOrigem=dolar&quantidade=100")
+print("O tamanho da URL é:", len(extrator_url),"caracteres")
+print(extrator_url)
+#valor_quantidade = extrator_url.get_valor_parametro("moedaDestino")
+#print(valor_quantidade)
+
+#desafio
+
+valor_dolar = 4.94 #Cotação do dolar dia 28/04/2022
+moeda_origem = extrator_url.get_valor_parametro("moedaOrigem")
+moeda_destino = extrator_url.get_valor_parametro("moedaDestino")
+quantidade = extrator_url.get_valor_parametro("quantidade")
+
+if moeda_origem == "real" and moeda_destino == "dolar":
+    cambio = round(float(quantidade)/valor_dolar,2)
+    print("\n"+"Sua quantidade em doláres é de ${}".format(cambio))
+elif moeda_origem == "dolar" and moeda_destino == "real":
+    cambio = round(float(quantidade) * valor_dolar, 2)
+    print("\n" + "Sua quantidade em reais é de R${}".format(cambio))
+else:
+    print("Não conseguimos converter o seu cambio")
