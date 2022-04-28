@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0359e224-5105-4d45-a3ff-d3d873a28ed0" name="Changes" comment="Implemento Paradigma da Orientação a Objetos para simplificar código">
-      <change afterPath="$PROJECT_DIR$/extrator_cep.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0359e224-5105-4d45-a3ff-d3d873a28ed0" name="Changes" comment="Adicionando expressões regulares" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651167568910</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adicionando expressões regulares">
+      <created>1651172946768</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651172946768</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +280,7 @@
     <MESSAGE value="Adicionando método len" />
     <MESSAGE value="Alterações nas pastas" />
     <MESSAGE value="Implemento Paradigma da Orientação a Objetos para simplificar código" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemento Paradigma da Orientação a Objetos para simplificar código" />
+    <MESSAGE value="Adicionando expressões regulares" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando expressões regulares" />
   </component>
 </project>
