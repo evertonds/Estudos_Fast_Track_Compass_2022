@@ -1,7 +1,7 @@
 # Estudos Fast Track Compass 2022
 
-Certificação obtida ao concluir a formação "Modelagem de dados" na Alura. 
+Certificação obtida ao concluir o curso "PYTHON 3: INTRODUÇÃO A ORIENTAÇÃO A OBJETOS" na Alura. 
 
-A formação compreendia os principios da modelagem de dados, modelo Entidade-Relacionamento, banco de dados relacionais, atividades práticas de modelagem de bancos e esquemas, além de exercicios práticos de consultas a bancos relacionais e não-relacionais, utilizando MySQL e MongoDB. 
+O curso compreende a introdução do paradigma da Orientação a Objetos, além de iniciar os conceitos de classes, objetos, métodos, encapsulamentos, entre outros. 
 
-<link>https://cursos.alura.com.br/user/evertonds/degree-modelagem-dados-62403/certificate</link>
+https://cursos.alura.com.br/certificate/f3fdf405-795f-423f-82a1-302c85d7d1e6
