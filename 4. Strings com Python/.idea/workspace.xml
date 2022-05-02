@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0359e224-5105-4d45-a3ff-d3d873a28ed0" name="Changes" comment="Inserindo certificados">
-      <change afterPath="$PROJECT_DIR$/validador_url.py" afterDir="false" />
+    <list default="true" id="0359e224-5105-4d45-a3ff-d3d873a28ed0" name="Changes" comment="Finalizando estudo com desafio proposto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extrator_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/extrator_url.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +30,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/everton.s/ALURA/Estudos_Fast_Track_Compass_2022/2. Introdução ao Python II/forca.py"
   }
-}</component>
-  <component name="RunManager" selected="Python.extrator_url">
+}]]></component>
+  <component name="RunManager" selected="Python.forca">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,6 +95,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extrator_url.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="forca" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="4. Strings com Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../2. Introdução ao Python II" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../2. Introdução ao Python II/forca.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,6 +228,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.forca" />
         <item itemvalue="Python.extrator_url" />
         <item itemvalue="Python.validador_url" />
         <item itemvalue="Python.extrator_cep" />
@@ -285,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651173411129</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Finalizando estudo com desafio proposto">
+      <created>1651176939430</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651176939430</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,6 +352,7 @@
     <MESSAGE value="Implemento Paradigma da Orientação a Objetos para simplificar código" />
     <MESSAGE value="Adicionando expressões regulares" />
     <MESSAGE value="Inserindo certificados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inserindo certificados" />
+    <MESSAGE value="Finalizando estudo com desafio proposto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizando estudo com desafio proposto" />
   </component>
 </project>
