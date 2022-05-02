@@ -1,7 +1,7 @@
 # Estudos Fast Track Compass 2022
 
-Certificação obtida ao concluir a formação "Modelagem de dados" na Alura. 
+Certificação obtida ao concluir o curso "PYTHON COLLECTIONS PARTE 1: LISTAS E TUPLAS" na Alura.
 
-A formação compreendia os principios da modelagem de dados, modelo Entidade-Relacionamento, banco de dados relacionais, atividades práticas de modelagem de bancos e esquemas, além de exercicios práticos de consultas a bancos relacionais e não-relacionais, utilizando MySQL e MongoDB. 
+O curso explica sobre métodos e tratativas de conjuntos de dados em Python, principalmente listas e tuplas, e suas operações e técnicas. 
 
-<link>https://cursos.alura.com.br/user/evertonds/degree-modelagem-dados-62403/certificate</link>
+<link>https://cursos.alura.com.br/certificate/451cb434-abc1-4c57-994d-57390b3e631e</link>
